@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Application.DTOs
+{
+    public class LoginResponse
+    {
+        public string Token { get; set; } = null!;
+        public int CustomerId { get; set; }
+        public string UserName { get; set; } = null!;
+        public string Email { get; set; } = null!;
+    }
+}
+
